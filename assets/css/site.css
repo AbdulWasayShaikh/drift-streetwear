@@ -80,7 +80,7 @@ p{margin:0}
 .icon svg{width:21px;height:21px}
 .badge{position:absolute;top:4px;right:2px;min-width:18px;height:18px;border-radius:999px;background:var(--ink);color:var(--paper);
   font-size:10.5px;font-weight:700;display:grid;place-items:center;padding:0 5px}
-.burger{display:none;flex-direction:column;gap:5px}
+.burger{display:none;flex-direction:column;gap:5px;align-items:center;justify-content:center}
 .burger span{display:block;width:20px;height:2px;background:var(--ink);transition:transform .35s var(--ease),opacity .3s}
 .head.open .burger span:first-child{transform:translateY(3.5px) rotate(45deg)}
 .head.open .burger span:last-child{transform:translateY(-3.5px) rotate(-45deg)}
