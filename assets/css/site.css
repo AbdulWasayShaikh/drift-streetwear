@@ -96,8 +96,8 @@ p{margin:0}
 /* ---------------- placeholders and photos ---------------- */
 /* every photo slot renders a drawn garment until its file is listed in assets/img/images.json,
    so a missing file is a designed state, never a broken image */
-.ph,.hero-photo,.bcard,.mi,.av,.th,.featmain,.shot{position:relative;overflow:hidden;background:var(--off2)}
-.ph::after,.hero-photo::after,.bcard::after,.mi::after,.av::after,.th::after,.shot::after{
+.ph,.hero-photo,.bcard,.mi,.av,.th,.featmain,.shot,.qi,.cim{position:relative;overflow:hidden;background:var(--off2)}
+.ph::after,.hero-photo::after,.bcard::after,.mi::after,.av::after,.th::after,.shot::after,.qi::after,.cim::after{
   content:"";position:absolute;inset:0;background-image:var(--img,none);background-size:cover;background-position:50% 45%;
   transition:transform 1.2s var(--ease),opacity .6s var(--ease)}
 .drawn>svg{position:absolute;left:50%;top:50%;width:46%;height:46%;transform:translate(-50%,-50%);color:rgba(17,17,17,.15);fill:currentColor}
