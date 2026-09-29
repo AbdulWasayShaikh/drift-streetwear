@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DRIFT | Streetwear. Redefined.</title>
+<meta name="description" content="DRIFT is a monochrome streetwear label. Heavyweight cotton, boxy cuts, limited drops. Shop the new drop.">
+<meta name="theme-color" content="#111111">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23111'/%3E%3Ctext x='50' y='68' font-family='Arial Black,Arial' font-size='52' font-weight='900' fill='%23fff' text-anchor='middle'%3ED%3C/text%3E%3C/svg%3E">
+
+<!-- DEPLOY STEP: patch og:url and og:image with the live absolute URL -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="DRIFT | Streetwear. Redefined.">
+<meta property="og:description" content="Heavyweight cotton, boxy cuts, limited drops.">
+<meta property="og:url" content="https://abdulwasayshaikh.github.io/drift-streetwear/">
+<meta property="og:image" content="https://abdulwasayshaikh.github.io/drift-streetwear/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add('js');
+setTimeout(function(){document.documentElement.classList.add('shown')},3000);</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- drawn garment shapes: what a card shows until its photo exists -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <symbol id="g-tee" viewBox="0 0 120 140"><path d="M44 12 L28 20 L10 34 L22 52 L32 45 V128 H88 V45 L98 52 L110 34 L92 20 L76 12 C72 22 48 22 44 12 Z"/></symbol>
+  <symbol id="g-hood" viewBox="0 0 120 140"><path d="M46 10 L26 20 L8 38 L20 58 L30 50 V130 H90 V50 L100 58 L112 38 L94 20 L74 10 C70 26 50 26 46 10 Z"/><path d="M52 12 q8 16 16 0" fill="none" stroke="currentColor" stroke-width="3"/><path d="M56 44 v22 M64 44 v22" stroke="currentColor" stroke-width="3"/></symbol>
+  <symbol id="g-shoe" viewBox="0 0 160 100"><path d="M12 74 V44 q14 2 24 -6 l16 -14 q6 -6 12 0 l10 12 q10 10 28 14 l38 10 q12 4 12 14 v6 H20 q-8 0 -8 -6 Z"/><path d="M52 24 l14 16 M70 34 l12 14" stroke="#fff" stroke-width="4" fill="none"/></symbol>
+  <symbol id="g-cap" viewBox="0 0 140 100"><path d="M20 70 q0 -48 50 -48 t50 48 z"/><path d="M14 70 h112 q10 0 10 10 H4 q0 -10 10 -10 z"/></symbol>
+  <symbol id="g-person" viewBox="0 0 120 200"><circle cx="60" cy="30" r="20"/><path d="M34 60 h52 l14 44 -16 6 -4 -16 v92 H40 V94 l-4 16 -16 -6 z"/></symbol>
+  <symbol id="g-pant" viewBox="0 0 120 160"><path d="M30 8 h60 l6 46 -4 96 H62 l-4 -76 -4 76 H28 l-4 -96 z"/></symbol>
+</defs></svg>
+
+<header class="head" id="head">
+  <a class="logo" href="#top">DRIFT</a>
+  <nav class="mainnav" id="mainnav" aria-label="Main">
+    <a href="#top">Home</a>
+    <a href="#picks">Shop</a>
+    <a href="#cats">Collections</a>
+    <a href="#story">About</a>
+  </nav>
+  <div class="headtools">
+    <button class="icon" type="button" id="searchBtn" aria-label="Search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+    </button>
+    <button class="icon" type="button" id="cartBtn" aria-label="Open cart">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg>
+      <span class="badge" id="cartCount">0</span>
+    </button>
+    <button class="icon burger" type="button" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+
+<!-- ========================= 1. HERO ========================= -->
+<section class="hero" id="top">
+  <div class="hero-photo" data-img="hero-model" data-shape="g-person" aria-label="A model wearing the new DRIFT drop"></div>
+
+  <div class="hero-left">
+    <span class="pill tag" data-hero="1">NEW DROP</span>
+    <h1 class="display" data-hero="2"><span class="ln">Streetwear.</span><span class="ln">Redefined.</span></h1>
+    <p class="sub" data-hero="3">Heavyweight cotton, boxy cuts, and a colour palette of exactly two. Made in small runs, sold once.</p>
+    <div class="herocta" data-hero="4">
+      <a class="btn" href="#picks">Explore Collection</a>
+      <a class="btn ghost" href="#show">See the drop</a>
+    </div>
+  </div>
+
+  <div class="hero-cards" aria-hidden="true">
+    <div class="glass c1" data-hero="5"><b>Premium Quality</b><span>380 gsm loopback cotton</span></div>
+    <div class="glass c2" data-hero="6"><b>Limited Edition</b><span>200 pieces per drop</span></div>
+    <div class="glass c3" data-hero="7"><b>2.4K+</b><span>Loved by thousands</span></div>
+    <div class="glass c4 social" data-hero="8"><span>Follow Us</span><i>@drift</i></div>
+  </div>
+
+  <div class="statsbar" data-hero="9">
+    <div><b>50+</b><span>Collections</span></div>
+    <div><b>200</b><span>Pieces per drop</span></div>
+    <div><b>48h</b><span>Delivery, Pakistan</span></div>
+    <div><b>4.8</b><span>Average rating</span></div>
+  </div>
+</section>
+
+<!-- ========================= 2. PRODUCT SHOWCASE ========================= -->
+<section class="show" id="show" aria-label="Product showcase">
+  <div class="stage">
+    <div class="stage-main">
+      <div class="shot" id="shotA" data-img="prod-hoodie" data-shape="g-hood"></div>
+      <div class="shot" id="shotB" aria-hidden="true"></div>
+    </div>
+    <div class="queue" id="queue" aria-hidden="true"></div>
+    <div class="stagenav">
+      <button type="button" id="prevBtn">PREV</button>
+      <span class="count"><b id="showIdx">01</b> / 04</span>
+      <button type="button" id="nextBtn">NEXT</button>
+    </div>
+  </div>
+
+  <div class="details">
+    <p class="crumbs">HOME <span>/</span> <span id="crumbCat">HOODIES</span></p>
+    <div class="stars" id="starRow" aria-label="Rated 4.8 out of 5">
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+      <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+      <span>4.8 <i>(312)</i></span>
+    </div>
+    <h2 class="display big" id="showName">Fracture Hoodie</h2>
+    <p class="showline" id="showLine">Oversized, dropped shoulder, brushed inside. The one people ask about.</p>
+    <p class="price" id="showPrice">Rs 12,900</p>
+
+    <div class="opt">
+      <p class="lbl">Size</p>
+      <div class="sizes" id="sizeRow" role="group" aria-label="Size">
+        <button type="button" class="pill sz">S</button>
+        <button type="button" class="pill sz on">M</button>
+        <button type="button" class="pill sz">L</button>
+        <button type="button" class="pill sz">XL</button>
+        <button type="button" class="pill sz">XXL</button>
+      </div>
+    </div>
+    <div class="opt">
+      <p class="lbl">Colour</p>
+      <div class="swatches" id="swRow" role="group" aria-label="Colour">
+        <button type="button" class="sw on" style="--c:#111" aria-label="Ink"></button>
+        <button type="button" class="sw" style="--c:#fff" aria-label="White"></button>
+        <button type="button" class="sw" style="--c:#8A8A8A" aria-label="Grey"></button>
+      </div>
+    </div>
+    <button class="btn block" type="button" id="showAdd" data-add>ADD TO CART</button>
+    <p class="note">Free delivery over Rs 15,000. Exchange within 14 days.</p>
+  </div>
+</section>
+
+<!-- ========================= 3. POPULAR PICKS ========================= -->
+<section class="sec off" id="picks">
+  <div class="wrap">
+    <div class="sechead">
+      <div>
+        <p class="over flip">SHOP THE DROP</p>
+        <h2 class="display big flip">Popular Picks</h2>
+      </div>
+      <div class="arrows flip">
+        <button class="round" type="button" id="railPrev" aria-label="Scroll left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 6l-6 6 6 6"/></svg></button>
+        <button class="round" type="button" id="railNext" aria-label="Scroll right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10 6l6 6-6 6"/></svg></button>
+      </div>
+    </div>
+  </div>
+  <div class="rail" id="rail" tabindex="0" aria-label="Popular picks, scrollable">
+    <article class="card flip"><div class="ph" data-img="pick-1" data-shape="g-tee"></div><div class="cl"><div><h3>Static Tee</h3><p>Rs 5,400</p></div><button class="bag" type="button" data-add data-name="Static Tee" data-price="5400" aria-label="Add Static Tee to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+    <article class="card flip"><div class="ph" data-img="pick-2" data-shape="g-hood"></div><div class="cl"><div><h3>Night Shift Hoodie</h3><p>Rs 13,500</p></div><button class="bag" type="button" data-add data-name="Night Shift Hoodie" data-price="13500" aria-label="Add Night Shift Hoodie to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+    <article class="card flip"><div class="ph" data-img="pick-3" data-shape="g-pant"></div><div class="cl"><div><h3>Cargo 02</h3><p>Rs 9,900</p></div><button class="bag" type="button" data-add data-name="Cargo 02" data-price="9900" aria-label="Add Cargo 02 to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+    <article class="card flip"><div class="ph" data-img="pick-4" data-shape="g-cap"></div><div class="cl"><div><h3>Blank Cap</h3><p>Rs 3,200</p></div><button class="bag" type="button" data-add data-name="Blank Cap" data-price="3200" aria-label="Add Blank Cap to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+    <article class="card flip"><div class="ph" data-img="pick-5" data-shape="g-tee"></div><div class="cl"><div><h3>Grid Long Sleeve</h3><p>Rs 7,200</p></div><button class="bag" type="button" data-add data-name="Grid Long Sleeve" data-price="7200" aria-label="Add Grid Long Sleeve to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+    <article class="card flip"><div class="ph" data-img="pick-6" data-shape="g-shoe"></div><div class="cl"><div><h3>Sonic 01 Low</h3><p>Rs 18,400</p></div><button class="bag" type="button" data-add data-name="Sonic 01 Low" data-price="18400" aria-label="Add Sonic 01 Low to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+  </div>
+</section>
+
+<!-- ========================= 4. NEW ARRIVALS ========================= -->
+<section class="sec off pt0" id="new">
+  <div class="wrap">
+    <div class="sechead">
+      <div>
+        <p class="over flip">JUST ARRIVED</p>
+        <h2 class="display big flip">New Arrivals</h2>
+      </div>
+      <a class="btn ghost flip" href="#picks">View all</a>
+    </div>
+    <div class="grid4">
+      <article class="card flip"><div class="ph" data-img="new-1" data-shape="g-hood"><span class="newpill">NEW</span></div><div class="cl"><div><h3>Fracture Hoodie</h3><p>Rs 12,900</p></div><button class="bag" type="button" data-add data-name="Fracture Hoodie" data-price="12900" aria-label="Add Fracture Hoodie to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+      <article class="card flip"><div class="ph" data-img="new-2" data-shape="g-tee"><span class="newpill">NEW</span></div><div class="cl"><div><h3>Signal Tee</h3><p>Rs 5,900</p></div><button class="bag" type="button" data-add data-name="Signal Tee" data-price="5900" aria-label="Add Signal Tee to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+      <article class="card flip"><div class="ph" data-img="new-3" data-shape="g-pant"><span class="newpill">NEW</span></div><div class="cl"><div><h3>Drift Sweatpant</h3><p>Rs 8,600</p></div><button class="bag" type="button" data-add data-name="Drift Sweatpant" data-price="8600" aria-label="Add Drift Sweatpant to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+      <article class="card flip"><div class="ph" data-img="new-4" data-shape="g-hood"><span class="newpill">NEW</span></div><div class="cl"><div><h3>Shell Jacket</h3><p>Rs 21,000</p></div><button class="bag" type="button" data-add data-name="Shell Jacket" data-price="21000" aria-label="Add Shell Jacket to cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 8h12l-1.2 12H7.2z"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/></svg></button></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= 5. CATEGORIES ========================= -->
+<section class="sec" id="cats">
+  <div class="wrap">
+    <div class="sechead">
+      <div>
+        <p class="over flip">BROWSE</p>
+        <h2 class="display big flip">Our Categories</h2>
+      </div>
+    </div>
+    <div class="bento">
+      <a class="bcard tall flip" href="#new" data-img="cat-new" data-shape="g-person"><div class="bl"><h3>New Arrivals</h3><span class="pill light">View Collections</span></div></a>
+      <a class="bcard flip" href="#picks" data-img="cat-outer" data-shape="g-hood"><div class="bl"><h3>Outerwear</h3><span class="pill light">View Collections</span></div></a>
+      <a class="bcard flip" href="#picks" data-img="cat-active" data-shape="g-pant"><div class="bl"><h3>Activewear</h3><span class="pill light">View Collections</span></div></a>
+      <a class="bcard flip" href="#picks" data-img="cat-clear" data-shape="g-tee"><div class="bl"><h3>Clearance</h3><span class="pill light">View Collections</span></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= 6. IDENTITY SHOWCASE ========================= -->
+<section class="identity" id="story">
+  <div class="wrap narrow center">
+    <h2 class="display big flip">Express Your Identity With Our Unique Style</h2>
+    <p class="lede flip">Two colours, no logos on the chest, and a fit that works on everybody. We make the plain thing properly, then stop printing it.</p>
+  </div>
+  <div class="marquee" id="marquee" aria-hidden="true">
+    <div class="track" id="track">
+      <div class="mi" data-img="mq-1" data-shape="g-person"></div>
+      <div class="mi" data-img="mq-2" data-shape="g-hood"></div>
+      <div class="mi" data-img="mq-3" data-shape="g-person"></div>
+      <div class="mi" data-img="mq-4" data-shape="g-tee"></div>
+      <div class="mi" data-img="mq-5" data-shape="g-person"></div>
+      <div class="mi" data-img="mq-6" data-shape="g-cap"></div>
+    </div>
+  </div>
+  <div class="scrolldot">
+    <svg class="spin" viewBox="0 0 120 120" aria-hidden="true">
+      <defs><path id="circ" d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0"/></defs>
+      <text><textPath href="#circ">SCROLL DOWN · SCROLL DOWN · SCROLL DOWN · </textPath></text>
+    </svg>
+    <svg class="arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
+  </div>
+</section>
+
+<!-- ========================= 7. FEATURED PRODUCT ========================= -->
+<section class="sec off" id="featured">
+  <div class="wrap feat">
+    <div class="featleft flip">
+      <div class="featmain ph" id="featMain" data-img="feat-1" data-shape="g-shoe"></div>
+      <div class="thumbs" id="featThumbs">
+        <button class="th on" type="button" data-img="feat-1" data-shape="g-shoe" aria-label="View 1"></button>
+        <button class="th" type="button" data-img="feat-2" data-shape="g-shoe" aria-label="View 2"></button>
+        <button class="th" type="button" data-img="feat-3" data-shape="g-shoe" aria-label="View 3"></button>
+        <button class="th" type="button" data-img="feat-4" data-shape="g-shoe" aria-label="View 4"></button>
+      </div>
+    </div>
+    <div class="featright">
+      <p class="over flip">FEATURED</p>
+      <h2 class="display big flip">Sonic 01</h2>
+      <p class="price flip">Rs 18,400 <s>Rs 22,000</s></p>
+      <div class="stars flip">
+        <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+        <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+        <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+        <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+        <svg viewBox="0 0 20 20"><path d="M10 1l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L1.4 7.4l6-.8z"/></svg>
+        <span>4.9 <i>(86)</i></span>
+      </div>
+      <div class="twocards flip">
+        <div class="mini"><b>To Order</b><span>Ships in 3 days</span></div>
+        <div class="mini"><b>In Stock</b><span>14 pairs left</span></div>
+      </div>
+      <div class="selects flip">
+        <label class="sel"><span>Size</span>
+          <select id="featSize"><option>UK 6</option><option>UK 7</option><option selected>UK 8</option><option>UK 9</option><option>UK 10</option><option>UK 11</option></select>
+        </label>
+        <label class="sel"><span>Colour</span>
+          <select id="featColor"><option selected>Ink</option><option>White</option><option>Grey</option></select>
+        </label>
+      </div>
+      <button class="btn block big flip" type="button" data-add data-name="Sonic 01" data-price="18400">My Drip Bag</button>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= 8. TESTIMONIALS ========================= -->
+<section class="sec" id="reviews">
+  <div class="wrap center narrow">
+    <h2 class="display big flip">Every Pair Tells A Story. Here's Theirs.</h2>
+    <div class="trustrow flip">
+      <div class="avatars" aria-hidden="true">
+        <span class="av" data-img="av-1" data-shape="g-person"></span>
+        <span class="av" data-img="av-2" data-shape="g-person"></span>
+        <span class="av" data-img="av-3" data-shape="g-person"></span>
+        <span class="av more">+</span>
+      </div>
+      <p><b>4.5/5</b> Trusted by 100+ customers</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="reviews">
+      <blockquote class="rv flip"><span class="qm">&rdquo;</span><p>The hoodie is heavier than anything I own. Washed it four times, still the same shape.</p><footer><span class="av" data-img="av-1" data-shape="g-person"></span><div><b>Bilal A.</b><i>Karachi</i></div></footer></blockquote>
+      <blockquote class="rv mid flip"><span class="qm">&rdquo;</span><p>I ordered on Monday, wore it on Wednesday. The fit is boxy in the right way, not baggy.</p><footer><span class="av" data-img="av-2" data-shape="g-person"></span><div><b>Hira S.</b><i>Lahore</i></div></footer></blockquote>
+      <blockquote class="rv flip"><span class="qm">&rdquo;</span><p>Plain black tee, no logo screaming at anyone. That is exactly why I bought three.</p><footer><span class="av" data-img="av-3" data-shape="g-person"></span><div><b>Usman R.</b><i>Islamabad</i></div></footer></blockquote>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ========================= 9. FOOTER ========================= -->
+<footer class="foot">
+  <div class="ghost-word" aria-hidden="true">DRIFT</div>
+  <div class="footcard">
+    <div class="fgrid">
+      <div class="fbrand">
+        <b>DRIFT</b>
+        <p>Monochrome streetwear, made in small runs. Karachi.</p>
+      </div>
+      <div><h4>Shop</h4><ul><li><a href="#new">New Arrivals</a></li><li><a href="#picks">Popular Picks</a></li><li><a href="#cats">Collections</a></li><li><a href="#featured">Footwear</a></li></ul></div>
+      <div><h4>Help</h4><ul><li><a href="#reviews">Reviews</a></li><li><a href="#story">About</a></li><li><a href="#new">Size guide</a></li><li><a href="#new">Shipping and returns</a></li></ul></div>
+      <div class="fnews">
+        <h4>Get the drop first</h4>
+        <form id="newsForm" novalidate>
+          <input id="newsMail" type="email" inputmode="email" placeholder="Email address" aria-label="Email address" required>
+          <button class="btn" type="submit">Join</button>
+        </form>
+        <p class="fnote" id="newsNote">Drops sell out in a day. Demo form: nothing is sent yet.</p>
+      </div>
+    </div>
+    <div class="fbase">
+      <span>© <span id="yr">2026</span> DRIFT</span>
+      <span>Demo website designed and built by Abdul Wasay Shaikh</span>
+    </div>
+  </div>
+</footer>
+
+<!-- cart drawer -->
+<div class="backdrop" id="backdrop" hidden></div>
+<aside class="cart" id="cart" aria-label="Cart" aria-hidden="true">
+  <div class="carthead">
+    <h3>Your bag</h3>
+    <button class="icon" type="button" id="cartClose" aria-label="Close cart">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="cartbody" id="cartBody"><p class="empty">Your bag is empty. The drop is one scroll up.</p></div>
+  <div class="cartfoot">
+    <div class="sumrow"><span>Subtotal</span><b id="cartTotal">Rs 0</b></div>
+    <button class="btn block" type="button" id="checkout">Checkout</button>
+    <p class="fnote">Demo store: checkout is not wired to a payment provider.</p>
+  </div>
+</aside>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
