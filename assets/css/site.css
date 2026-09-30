@@ -240,9 +240,9 @@ p{margin:0}
 .bento{display:grid;grid-template-columns:1.25fr 1fr 1fr;grid-template-rows:repeat(2,minmax(230px,32vh));gap:clamp(14px,1.6vw,22px)}
 .bcard{position:relative;border-radius:var(--r-lg);overflow:hidden;background:var(--ink);display:block}
 .bcard.tall{grid-row:span 2}
-.bcard:nth-child(3){grid-column:3}
+.bcard:nth-child(3){grid-column:3;grid-row:span 2}
 .bcard::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(to top,rgba(17,17,17,.78) 0%,rgba(17,17,17,.12) 52%,rgba(17,17,17,0) 78%)}
-.bcard::after{transition:transform 1.4s var(--ease)}
+.bcard::after{transition:transform 1.4s var(--ease);background-position:50% 28%}
 .bcard:hover::after{transform:scale(1.06)}
 .bl{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:26px;color:var(--paper);display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .bl h3{font-family:var(--display);font-weight:900;font-size:clamp(22px,2vw,32px);letter-spacing:-.03em}
@@ -251,10 +251,11 @@ p{margin:0}
 .bcard:hover .pill.light,.bcard:focus-visible .pill.light{opacity:1;transform:none}
 @media (max-width:900px){
   .bento{grid-template-columns:1fr 1fr;grid-template-rows:repeat(3,minmax(200px,26vh))}
-  .bcard:nth-child(3){grid-column:auto}
+  .bcard:nth-child(3){grid-column:auto;grid-row:auto}
+  .bcard:nth-child(4){grid-column:span 2}
   .pill.light{opacity:1;transform:none}
 }
-@media (max-width:560px){.bento{grid-template-columns:1fr}.bcard.tall{grid-row:auto}}
+@media (max-width:560px){.bento{grid-template-columns:1fr;grid-template-rows:none;grid-auto-rows:minmax(220px,30vh)}.bcard.tall{grid-row:auto}.bcard:nth-child(4){grid-column:auto}}
 
 /* ---------------- 6. identity and marquee ---------------- */
 .identity{position:relative;padding:clamp(80px,11vh,140px) 0 clamp(90px,12vh,150px);background:var(--paper)}
